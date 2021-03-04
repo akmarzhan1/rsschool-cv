@@ -1,11 +1,9 @@
 # Akmarzhan Abylay 
-<hr/>
 
 > akmarzhan@minerva.kgi.edu | +8 708 823 47 13 | [GitHub](https://github.com/akmarzhan1)
 
 Aspiring junior computer science student with a desire and curiosity to learn and discover novel solutions to existing problems. Had various experiences as a programming tutor and completed project in data science and causal inference, computer vision, artificial intelligence algorithms and web development-related fields. 
 # Education
-<hr/>
 
 **Minerva Schools at KGI** 
 ```
