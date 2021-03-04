@@ -23,8 +23,6 @@ September 2018 - May 2022
   * CS50&CS51 (Formal Analyses, Intro to CS)
 
 # Projects 
-<hr/> 
-
 
 **[K-pop idol recognition tool](https://github.com/akmarzhan1/Projects/blob/main/%5BFinal%5D%20K-pop%20Idol%20Recognition%20Tool.pdf)**
 
@@ -70,7 +68,6 @@ April 2020 - May 2020: Buenos Aires, Argentina
 * Extended the system to include GUI using Tkinter.
 
 ## Experience
-<hr/>
 
  **Business School KNU** 
 
@@ -127,8 +124,6 @@ September 2018 - May 2019: San Francisco, CA
 * Constructed an extensive report on the most important feet measurements based on researching and analyzing 200+ scholarly articles.
 
 ## Skills
-
-<hr/>
 
 **Technical Skills**: Python, SQL, R, Sage, LaTeX, STATA.
 
