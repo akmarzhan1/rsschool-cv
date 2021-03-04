@@ -1,4 +1,4 @@
-#gh-pages
+# gh-pages
 
 Markdown: https://akmarzhan1.github.io/rsschool-cv/cv
 
