@@ -1,3 +1,1 @@
-# rsschool-cv
-
-https://akmarzhan1.github.io/rsschool-cv/cv
+Simple HTML & CSS CV instance
