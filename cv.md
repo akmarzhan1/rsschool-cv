@@ -42,7 +42,7 @@ real-time given 10-15 input pictures.
 November 2020 - December 2020:  London, United Kingdom
 ```
 
-*Coding (AI and Neural Networks) *
+*Coding (AI and Neural Networks)*
 
 * Created an OOP-based manual neural network model for simple 2d dataset classification. 
 * Achieved a 100% accuracy within the first 5000 iterations.
@@ -53,7 +53,7 @@ propagation using chain rules).
 ```
 April 2020 - May 2020: Buenos Aires, Argentina
 ```
-*Coding (Robotics) *
+*Coding (Robotics)*
 
 * Projected and assembled an AI-driven robot using Arduino UNO and Motor Driver Shield.
 * Coded a shortest path solving algorithm in Arduino IDE using the Adafruit library and the  left-hand rule heuristic to achieve successful execution.
