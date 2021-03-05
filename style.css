@@ -144,25 +144,25 @@ ul.bullet-description li:before {
   color: #509e98;
 }
 
-footer {
-  padding: 2em 1.5em;
-  color: white;
-  text-align: right;
-  background: #2b5568;
-  overflow-y: auto;
-}
-
 .icon1 {
   background: url("./img/logo.svg");
   height: 32px;
   width: 75px;
   display: block;
   margin-left: 5px;
-  margin-top: 8px;
+  margin-top: 17px;
   line-height: 1.5em;
   text-align: center;
   background-size: 115%;
   /* Other styles here */
+}
+
+footer {
+  padding: 2em 1.5em;
+  color: white;
+  text-align: right;
+  background: #2b5568;
+  overflow-y: auto;
 }
 
 @media only screen and (max-width: 576px) {
@@ -174,3 +174,4 @@ footer {
     max-width: 100%;
   }
 }
+
