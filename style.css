@@ -26,17 +26,18 @@ section {
 }
 
 header,
-main {
+main,
+footer {
   margin: 0 auto;
 }
 
 header {
-  padding: 4em 8em;
+  padding: 2em 3em;
   text-align: center;
+  color: white;
   background-image: url("./img/bg.png");
   background-size: cover;
   background-position: fixed;
-  color: white;
 }
 
 header section {
@@ -63,6 +64,10 @@ h4 {
   font-weight: bold;
 }
 
+span {
+  color: #889499;
+}
+
 main {
   max-width: 1140px;
 }
@@ -86,8 +91,8 @@ main section:not(:last-child) {
   font-size: 1.5em;
   width: 1.5em;
   height: 1.5em;
-  line-height: 1.5em;
   margin: 5px;
+  line-height: 1.5em;
   text-align: center;
 }
 
@@ -95,7 +100,6 @@ a .fab {
   color: white;
 }
 
-.course,
 .skills {
   display: -ms-flexbox;
   display: flex;
@@ -103,22 +107,25 @@ a .fab {
   flex-wrap: wrap;
 }
 
-.course .title {
-  color: #509e98;
-  -ms-flex: 0 0 33.3%;
-  flex: 0 0 33.3%;
-  max-width: 33%;
-}
-
 .skills .column {
   -ms-flex: 0 0 33%;
   flex: 0 0 33%;
   max-width: 33%;
+  text-align: center;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto;
 }
 
 .skills .column ul,
-ul.job-description {
+header ul,
+ul.bullet-description {
   list-style-type: none;
+  text-align: left;
 }
 
 .skills .column ul > li:before {
@@ -127,30 +134,35 @@ ul.job-description {
   color: #509e98;
 }
 
-.job-title {
+.ultimate-title {
   text-transform: capitalize;
 }
 
-.job-title span {
-  color: #889499;
-  text-decoration: underline;
-}
-
-ul.job-description li:before {
+ul.bullet-description li:before {
   content: "☑️";
   padding-right: 0.5em;
   color: #509e98;
 }
 
-@media only screen and (max-width: 768px) {
-  .course {
-    display: block;
-  }
+footer {
+  padding: 2em 1.5em;
+  color: white;
+  text-align: right;
+  background: #2b5568;
+  overflow-y: auto;
+}
 
-  .course .title,
-  .course .descrition {
-    max-width: 100%;
-  }
+.icon1 {
+  background: url("./img/logo.svg");
+  height: 32px;
+  width: 75px;
+  display: block;
+  margin-left: 5px;
+  margin-top: 8px;
+  line-height: 1.5em;
+  text-align: center;
+  background-size: 115%;
+  /* Other styles here */
 }
 
 @media only screen and (max-width: 576px) {
