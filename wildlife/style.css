@@ -34,7 +34,8 @@ a{
 
 .header{
     width: 100%;
-    background-color: #02160b
+    background-color: #02160b;
+    margin-top:-1.2em;
 }
 
 .header-content{
@@ -226,6 +227,7 @@ a{
 
 .arrow{
     cursor: pointer;
+    margin-top:10px;
 }
 
 #arrow:hover path{
