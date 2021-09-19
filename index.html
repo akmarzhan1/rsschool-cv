@@ -90,6 +90,14 @@
       </article>
     </section>
 
+    <section> 
+      <h2> Video Introduction</h2>
+    <div align="center">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iZzMhsYIL7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+    </section>
     <section>
       <h2>Education</h2>
       <article>
@@ -116,8 +124,8 @@
         </ul>
         
         <h4><i> Code example:</i></h4>
-        <pre><code class="html">
-        #loading the original VGGFace model without the top
+        <pre><code class="python">
+#loading the original VGGFace model without the top
 vgg = VGGFace(include_top=False, input_shape=(224, 224, 3))
 
 #setting the few layers as non-trainable because they usually capture
