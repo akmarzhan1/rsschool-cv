@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
     integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
@@ -87,6 +90,14 @@
       </article>
     </section>
 
+    <section> 
+      <h2> Video Introduction</h2>
+    <div align="center">
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/iZzMhsYIL7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    </div>
+    </section>
     <section>
       <h2>Education</h2>
       <article>
@@ -101,7 +112,7 @@
           <li><strong>Coursework:</strong> Research Analyses, Data Science & Statistics, Artificial Intelligence
             Algorithms.</li>
         </ul>
-        <h3><i> Courses:</i></h3>
+        <h4><i> Courses:</i></h4>
         <ul>
           <li>CS162 (Software Development: Building Powerful Applications)</li>
           <li>CS164 (Optimization Methods)</li>
@@ -111,6 +122,27 @@
           <li>CS152 (Harnessing Artificial Intelligence Algorithms)</li>
           <li>CS50&CS51 (Formal Analyses, Intro to CS)</li>
         </ul>
+        
+        <h4><i> Code example:</i></h4>
+        <pre><code class="python">
+#loading the original VGGFace model without the top
+vgg = VGGFace(include_top=False, input_shape=(224, 224, 3))
+
+#setting the few layers as non-trainable because they usually capture
+#the universal features that might be needed for our task too
+for layer in vgg.layers:
+    layer.trainable = False
+    
+last_layer = vgg.output
+
+#building new layers for preventing overfitting
+x = Flatten(name='flatten')(last_layer)
+out = Dense(7, activation='softmax')(x)
+
+model = Model(vgg.input, out)
+
+</code></pre>
+
       </article>
     </section>
     <section>
@@ -222,7 +254,8 @@
     </section>
   </main>
   <footer>
-    Created by Akmarzhan Abylay / 2021
+    <h5>
+      Created by Akmarzhan Abylay / 2021 </h5>
     <a style="float:left;" href="https://github.com/akmarzhan1" target="_blank">
       <i class="fab fa-github-alt"></i>
     </a>
