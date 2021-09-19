@@ -12,11 +12,23 @@
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+
+  <nav class="navbar">
+    <a href="#main">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#experience">Experience</a>
+    
+  </nav>
+
   <header>
-    <img src="./img/photo.jpg" alt="Image of Akmarzhan" />
+
+    
+    <img id = "main" src="./img/photo.jpg" alt="Image of Akmarzhan" />
     <br>
     <h1>Akmarzhan Abylay</h1>
     <p>Aspiring junior computer science student with a desire and curiosity to learn and discover novel solutions to
@@ -32,7 +44,7 @@
   </header>
   <main>
     <section>
-      <h2>Projects</h2>
+      <h2 id = "projects">Projects</h2>
       <article>
         <h3 class='ultimate-title'>
           <strong><a
@@ -61,6 +73,10 @@
           <li>Explained the full maths behind deep neural networks (e.g., forward/backward propagation using chain
             rules).</li>
         </ul>
+        <div align="center">
+          <a href="https://github.com/akmarzhan1/Projects/blob/main/%5BFinal%5D%20K-pop%20Idol%20Recognition%20Tool.pdf"><img src="img/kpop.png" style="border-radius: 10%;width:360px" alt="K-pop"></a>
+          <a href="https://github.com/akmarzhan1/Projects/blob/main/%5BFinal%5D%20Manual%20Neural%20Networks.pdf"><img src="img/manual.png" style="border-radius: 10%;width:300px" alt="K-pop"></a>
+        </div>
       </article>
       <article>
         <h3 class='ultimate-title'>
@@ -99,7 +115,7 @@
     </div>
     </section>
     <section>
-      <h2>Education</h2>
+      <h2 id = "education">Education</h2>
       <article>
         <h3 class='ultimate-title'>
           <strong> <a href="https://www.minerva.kgi.edu"> Minerva Schools at KGI</a> </strong><span
@@ -146,7 +162,7 @@ model = Model(vgg.input, out)
       </article>
     </section>
     <section>
-      <h2>Experience</h2>
+      <h2 id = "experience">Experience</h2>
       <article>
         <h3 class='ultimate-title'>
           <strong>Business School KNU</strong> <span style='float:right;'>September 2020 - February 2021</span><br>
